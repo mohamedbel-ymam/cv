@@ -1,44 +1,130 @@
-body {margin-top: 0%;
-background-color: white;}
-.container {padding: 10px;
-    background-color: rgb(246, 246, 163);
-    margin: auto;
-    max-width: 90%;
+body{
+  margin-top: 0%;
+  background: linear-gradient(180deg, #e2e1e1, rgb(17, 16, 16));
+  position: relative;
 }
-ul,ol,li{list-style: none;}
-.langue ul div{display: inline-block;}
-progress{color: #0d8326;background-color: red; }
+header{
+  padding: 10px;
+  width: 95%;
+  margin: auto;
+}
+main{width: 90%; padding-left: 20px;padding-right: 20px;}
+.container {
+  background-color: white;
+  position: relative;
+  width: 90%; padding-top: 10px;
+  top: 20px;
+  margin: auto;
+  padding: 20px;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
 
-  
-header {background-color: #0d8326;
+.langue ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.langue ul li {
+  font-size: 1.3em;
+}
+.qualite {
+  color: white;
+  font-size: 1.5em;
+  padding-left: 10%;
+}
+#desc {
+  text-align: center;
+  /* padding: 20px; */
+  font-size: 1.5em;
+}
+header {
+  background-color: blue;
   overflow: auto;
 }
-nav .info{margin-top: 0%;
- display: inline-block;
- padding-left: 20px;
+nav .info {
+  margin-top: 0%;
+  display: inline-block;
+  padding-left: 20px;
+  color: white;
+  font-size: 1.3em;
 }
-.info li { font-size: large;
-padding: 10px;}
-.info li a {color: yellow;}
-
-nav .nom {display:inline-block;
-  margin:0% ;
-font-size: xx-large;
+ul li i {
+  color: white;
+  padding-right: 5px;
 }
-.nom li{color: red;}
-nav img { float:right; margin: 10px;clear:right;
-    height: 200px; border-radius: 100px;
+.info li {
+  font-size: 1.3em;
+  padding: 10px;
+  margin-top: 10px;
 }
-nav p {padding-left: 150px;margin-left: 150px;}
-h2 { font-size: 1.5em;color: #0d8326;}
-article h3 {font-size: 1em;color:red; }
+.info li a {
+  color: white;
+  text-decoration: none;
+}
+nav .nom{
+  text-align: center;
+  padding-left: 7%;
+  padding-bottom: 5%;
+  font-size: 3em;
+  margin-bottom: 0%;
+  color: white;
+}
 
-.competence article p{display:inline-block;width: 40%;}
-.competence section {float: right; clear:right;overflow: auto;}
-.competence section h3,p{margin-top: 0%;margin-bottom: 8px;}
+nav img {
+  float: right;
+  margin: 10px;
+  clear: right;
+  height: 300px;
+  width: 300px;
+  border-radius: 20%;
+  
+}
+nav p {
+  padding-left: 150px;
+  margin-left: 150px;
+}
 
-hr {border-color: red; background-color: red;}
-.formation ul,ol{display: inline-block;}
-.experience ul,ol{display: inline-block; }
-.experience ol h5{margin: 0%;}
-.experience ul li{padding-bottom: 20px;}
+h2 {
+  font-size: 2em;
+  color: blue;
+  padding-left: 20px;}
+article h3 {
+  font-size: 1em;
+  color: red;
+}
+
+.competence article {
+  font-size: 1.5em;
+  width: 50%;
+  display: inline-block;
+}
+.competence section {
+  float: right;
+  overflow: auto;
+  margin-right: 100px;
+  font-size: 1.3em;
+}
+.competence section h3 {
+  font-size: 1.3em;
+  color: blue;
+}
+hr {
+  border-color: blue;
+}
+.formation ul,
+ol {
+  display: inline-block;
+  font-size: 1.3em;
+  padding: 10px;
+}
+.experience ul li{
+  font-size: 1.3em;
+}
+.centre{
+  font-size: 1.3em;
+  padding: 5px;
+}
